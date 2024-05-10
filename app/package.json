@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "npx eslint . --ignore-pattern *.js",
+    "lint:fix": "npx eslint --fix . --ignore-pattern *.js",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "meilisearch": "^0.39.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "@types/node": "^20.12.11",
+    "eslint": "^8.57.0",
+    "globals": "^15.2.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0"
+  }
+}
