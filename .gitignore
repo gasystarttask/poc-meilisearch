@@ -1,6 +1,8 @@
 ## Meilisearch ###
 data.ms
 **/movies*.json
+**/meilisearch*
+**/dump*
 
 ### Node ###
 # Logs
